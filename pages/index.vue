@@ -27,7 +27,7 @@
         </section>
       </template>
     </Header>
-    <Content>
+    <Content class="bg-white">
         <NuxtLink to="integrative-lerntherapie">
           <div class="text-center text-2xl text-accent-500 py-18">
             Integrative Lerntherapie hilft bei Lernstörungen im Lesen, Schreiben oder Rechnen sowie bei Schwierigkeiten

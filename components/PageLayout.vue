@@ -1,8 +1,7 @@
 <template>
-    <div class="bg-cover bg-center bg-no-repeat" style="background-image: url('https://lerntherapiefreiburg.de/wp-content/uploads/2018/03/backgr.png');">
-    
+ <div>  
       <Header />
-      <Content>
+      <Content class="bg-white">
         <div v-if="layout" class="flex flex-col md:flex-row  items-start">
         <slot />
       </div>

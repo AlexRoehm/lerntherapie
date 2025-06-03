@@ -7,7 +7,7 @@
           <div class="max-w-7xl mx-auto flex items-center p-4 ">
             <!-- Logo -->
             <a href="/">
-              <img src="https://lerntherapiefreiburg.de/wp-content/uploads/2018/03/web-logo-w.png" alt="Logo"
+              <img src="~/assets/logo.png" alt="Logo"
                 :class="navHeight" />
             </a>
             <div class="flex-grow"></div>
@@ -36,7 +36,7 @@
           <div class="max-w-7xl mx-auto flex items-center p-4 ">
             <!-- Logo -->
             <a href="/" class="flex items-center space-x-3">
-              <img src="https://lerntherapiefreiburg.de/wp-content/uploads/2018/03/web-logo-w.png" alt="Logo"
+              <img src="~/assets/logo.png" alt="Logo"
               :class="navHeight" />
             </a>
             <div class="flex-grow"></div>
@@ -57,10 +57,7 @@
               <a v-for="item in menu" :href="item.slug" :class="getStyle(item.slug)+' px-4 py-2 bg-light-500'">{{ item.text }}</a>
         </div>   
       </div>
-      <div class="py-20 z-20">
         <slot name="hero-header"></slot>
-
-      </div>
 
     </div>
   </div>

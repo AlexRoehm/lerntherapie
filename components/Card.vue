@@ -3,7 +3,7 @@
     <nuxt-link :to="post.path">
       <div class="flex flex-col h-full">
         <img :src="'/img/'+post.image"/>
-        <div class="bg-white h-full p-10">
+        <div class="bg-gray-100 h-full p-10">
           <strong>{{ post.title }}</strong>
           <div class="text-xs mt-4 leading-relaxed">
             {{ post.description }}

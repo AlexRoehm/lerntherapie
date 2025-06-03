@@ -10,7 +10,7 @@ const { data: posts } = await useAsyncData(() => {
 
 <template>
     <PageLayout>    
-  <div class="flex justify-center md:mt-10 mb-20">
+  <div class="flex justify-center md:mt-30 mt-20 mb-20">
 
   <div class="w-full grid grid-col-1 lg:grid-cols-3 gap-10 lg:gap-8 justify-items-center text-light-500">
   <div
