@@ -20,7 +20,7 @@
       <template v-slot:hero-header>
         <!-- Hero Section -->
         <section>
-          <div class="max-w-4xl mx-auto text-white text-center py-4 sm:py-24 sm:px-6">
+          <div class="max-w-4xl mx-auto text-white text-center sm:py-40 md:py-50 py-24 sm:px-6">
             <h1 class="text-4xl md:text-5xl font-bold mb-4 px-6">Integrative Lerntherapie Freiburg</h1>
             <p class="text-xl md:text-2xl px-6">Praxis für Integrative Lerntherapue - A. Röhm</p>
           </div>

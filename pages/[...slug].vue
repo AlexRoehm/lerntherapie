@@ -20,6 +20,6 @@ const imgclass = computed(() => (page.value?.layout == 'columns' ? 'w-32' : 'w-f
     <div class="mb-10 mr-10 md:mt-30 mt-20">
       <a :href="imgsrc"><img v-if="page?.image" :src="imgsrc" :class="imgclass" class="object-scale-down" /></a>
     </div>
-    <ContentRenderer class="text-light-500 mb-18" id="html-content" :value="page" />
+    <ContentRenderer class="text-light-500 mb-18 md:mt-30 mt-20" id="html-content" :value="page" />
   </PageLayout>
 </template>
