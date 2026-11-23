@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: "22"
       - name: Install dependencies
-        run: yarn
+        run: yarn --frozen-lockfile
       - name: Static HTML export with Nuxt
         run: yarn generate
       - name: Upload to WebDAV
